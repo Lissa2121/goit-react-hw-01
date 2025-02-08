@@ -1,0 +1,27 @@
+.transaction {
+    /* width: 200px;
+    border-collapse: collapse;
+    margin: 0 auto; */
+    width: 100%;
+        max-width: 600px;
+        border-collapse: collapse;
+        margin: 20px auto;
+}
+
+.transaction th,
+.transaction td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.transaction th {
+    background-color: #131313;
+    text-align: center;
+    color: #fff;
+}
+
+.transaction tr:nth-child(2n+1) {
+    background-color: #a8a8a8;
+}

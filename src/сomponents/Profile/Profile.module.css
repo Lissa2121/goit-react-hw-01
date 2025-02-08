@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile {
+    border: 4px solid #212121;
+    width: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profileAccount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.profileUser {
+    border-radius: 50%;
+    background-color: #2a2a2a;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.profileName {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.profileInfo {
+    font-size: 30px;
+    color: #808080;
+    margin-top: 15px;
+}
+
+.profileList {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.profileItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    width: 100%;
+    background-color: #d3d3d3;
+    border: 2px solid #808080;
+}
+
+.profileTitle {
+    font-size: 30px;
+
+}
+
+.profileInformation {
+    font-size: 40px;
+    font-weight: bold;
+}
