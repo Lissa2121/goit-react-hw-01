@@ -15,4 +15,3 @@ const FriendsListItem = ({ avatar, name, isOnline }) => {
 };
 
 export default FriendsListItem;
-
