@@ -1,7 +1,7 @@
 import FriendsListItem from "./FriendsListItem";
 import css from "./FriendList.module.css";
 
-const Friend = ({friends}) => {
+const FriendList = ({friends}) => {
     return (
         <ul className={css.friend}>
             {friends.map((friend) => (
@@ -25,4 +25,4 @@ const Friend = ({friends}) => {
     )
 }
 
-export default Friend;
+export default FriendList;

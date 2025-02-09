@@ -1,5 +1,4 @@
 import css from "./FriendList.module.css";
-import clsx from "clsx";
 
 const FriendsListItem = ({ avatar, name, isOnline }) => {
     return (
